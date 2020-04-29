@@ -14,7 +14,6 @@ This dataset uses movie and television subtitles data from OpenSubtitles. See ht
 ```
 wget 'http://opus.nlpl.eu/download.php?f=OpenSubtitles/v2018/mono/OpenSubtitles.raw.en.gz' -O en.txt.gz
 gunzip en.txt.gz
-
 ```
 
 ### 2. Prepare the DailyDialog data
@@ -30,5 +29,4 @@ unzip ijcnlp_dailydialog.zip
 ### 3. Extract the utterances
 ```
 bash create_test.sh en.txt ijcnlp_dailydialog/dialogues_text.txt [TestsetName]
-
 ``` 
