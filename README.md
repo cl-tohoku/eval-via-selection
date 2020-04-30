@@ -1,7 +1,7 @@
 # Dialogue Response Selection Test Set with Well-Chosen False Candidates
 This repository has the code to construct the response selection test set we developed in:
 
-Shiki Sato, Reina Akama, Hiroki Ouchi, Jun Suzuki and Kentaro Inui. Evaluating Dialogue Generation Systems via Response Selection.
+Shiki Sato, Reina Akama, Hiroki Ouchi, Jun Suzuki and Kentaro Inui. Evaluating Dialogue Generation Systems via Response Selection. [[arXiv]](https://arxiv.org/abs/2004.14302)
 
 ## Statistics
 Below are statistics for the test set:
