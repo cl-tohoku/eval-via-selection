@@ -32,7 +32,7 @@ unzip ijcnlp_dailydialog.zip
 
 ### 3. Extract the utterances
 ```
-bash create_test.sh en.txt ijcnlp_dailydialog/dialogues_text.txt [TestsetName]
+bash create_test.sh ijcnlp_dailydialog/dialogues_text.txt en.txt [TestsetName]
 rm tmp_1 tmp_2
 ``` 
 
