@@ -46,7 +46,7 @@ Each line of [TestsetName] corresponds to a response selection question. Utteran
 
 ## Human Evaluation Scores
 If you need human evaluation scores for the test set candidates (see Section 3.1 of our paper), please refer to `human_scores.jsonl`.
-The record in the $n$-th line of `human_scores.jsonl` contains human scores for candidates of the question in the $n$-th line of [TestsetName]. The format is as follows:
+The record in the n-th line of `human_scores.jsonl` contains human scores for candidates of the question in the n-th line of [TestsetName]. The format is as follows:
 
 ```
 [
