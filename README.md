@@ -41,7 +41,33 @@ Each line of [TestsetName] corresponds to a response selection question. Utteran
 
 ```
 [utterence1_of_context]\t[utterence2_of_context]\t[utterence3_of_context]\t
-[Ground-Truth]\t[false_candidate1]\t[false_candidate2]\t[false_candidate3]
+[Ground_Truth]\t[false_candidate1]\t[false_candidate2]\t[false_candidate3]
+```
+
+## Human Evaluation Scores
+If you need human evaluation scores for the test set candidates (see Section 3.1 of our paper), please refer to `human_scores.jsonl`.
+The record in the $n$-th line of `human_scores.jsonl` contains human scores for candidates of the question in the $n$-th line of [TestsetName]. The format is as follows:
+
+```
+[
+ [score_for_Ground_Truth_by_human1,
+  score_for_Ground_Truth_by_human2,
+  ...,
+  score_for_Ground_Truth_by_human5
+ ],
+ [score_for_false_candidate1_by_human1,
+  score_for_false_candidate1_by_human2,
+  ...,
+  score_for_false_candidate1_by_human5
+ ],
+ [score_for_false_candidate2_by_human1,
+  ...,
+ ],
+ [score_for_false_candidate3_by_human1,
+  ...,
+  score_for_false_candidate3_by_human5
+ ]
+]
 ```
 
 ## Citation
